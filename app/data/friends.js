@@ -1,7 +1,7 @@
 var friendsData = [
     {
     name: "Tori",
-    photo: "",
+    photo: "https://ibb.co/vvYPDY2",
     scores: [
         "3",
         "4",
@@ -18,7 +18,7 @@ var friendsData = [
 ,
 {
     name: "Gabbi",
-    photo: "",
+    photo: "https://ibb.co/3yKj7jt",
     scores: [
         "5",
         "1",
@@ -34,7 +34,7 @@ var friendsData = [
 },
 {
     name: "Bryan",
-    photo: "",
+    photo: "https://ibb.co/NycLyV9",
     scores: [
         "1",
         "2",
@@ -50,7 +50,7 @@ var friendsData = [
 },
 {
     name: "Russel",
-    photo: "",
+    photo: "https://ibb.co/gyNhQXQ",
     scores: [
         "3",
         "2",
@@ -66,7 +66,7 @@ var friendsData = [
 },
 {
     name: "Nitza",
-    photo: "",
+    photo: "https://ibb.co/7X50B59",
     scores: [
         "5",
         "1",
@@ -82,7 +82,7 @@ var friendsData = [
 },
 {
     name: "Greg",
-    photo: "",
+    photo: "https://ibb.co/3kntbHZ",
     scores: [
         "5",
         "5",
@@ -98,7 +98,7 @@ var friendsData = [
 },
 {
     name: "Doug",
-    photo: "",
+    photo: "https://ibb.co/68g3WmB",
     scores: [
         "4",
         "2",
@@ -114,7 +114,7 @@ var friendsData = [
 },
 {
     name: "Tim",
-    photo: "",
+    photo: "https://ibb.co/fpZWdt7",
     scores: [
         "4",
         "5",
