@@ -29,7 +29,7 @@
     <hr>
 
     <h3><strong>Question 1</strong></h3>
-    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+    <h4>I see myself as extraverted, enthusiastic.</h4>
     <select class="chosen-select" id="q1">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -40,7 +40,7 @@
     </select>
 
     <h3><strong>Question 2</strong></h3>
-    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+    <h4>I see myself as dependable, self-disciplined.</h4>
     <select class="chosen-select" id="q2">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -52,7 +52,7 @@
 
 
     <h3><strong>Question 3</strong></h3>
-    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+    <h4>I see myself as anxious, easily upset.</h4>
     <select class="chosen-select" id="q3">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -64,7 +64,7 @@
 
 
     <h3><strong>Question 4</strong></h3>
-    <h4>You rarely do something just out of sheer curiosity.</h4>
+    <h4>I see myself as open to new experiences, complex.</h4>
     <select class="chosen-select" id="q4">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -100,7 +100,7 @@
 
 
     <h3><strong>Question 7</strong></h3>
-    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+    <h4>I see myself as reserved, quiet.</h4>
     <select class="chosen-select" id="q7">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -122,7 +122,7 @@
     </select>
 
     <h3><strong>Question 9</strong></h3>
-    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+    <h4> I see myself as conventional, uncreative.
     </h4>
     <select class="chosen-select" id="q9">
       <option value=""></option>
@@ -172,10 +172,10 @@
                   <p id="matchedFriendName"></p>
                   <img id="matchedFriendPicture" src="#" alt="friend-picture">
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   <button type="button" class="btn btn-primary">Contact your perfect friend!</button>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -212,10 +212,11 @@
             data: data,
             success: success
           
-          });
-
-          $("#matchedFriendName").html(data.name);
-          $("#matchedFriendPicture").attr("src", data.photo);
+          }).then(function (res){
+            $("#matchedFriendName").html(res.name);
+          $("#matchedFriendPicture").attr(src, res.photo);
+          })
+          
 
           $("#matchModal").show();
           hideModal();
@@ -223,7 +224,7 @@
           function hideModal() {
             $(".close").click(function(){
               $("#matchModal").hide();
-            });
+            })
           }
         
           

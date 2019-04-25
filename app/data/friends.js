@@ -1,7 +1,7 @@
 var friendsData = [
     {
     name: "Tori",
-    photo: "https://ibb.co/vvYPDY2",
+    photo: "https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg",
     scores: [
         "3",
         "4",
@@ -18,7 +18,7 @@ var friendsData = [
 ,
 {
     name: "Gabbi",
-    photo: "https://ibb.co/3yKj7jt",
+    photo: "",
     scores: [
         "5",
         "1",
@@ -34,7 +34,7 @@ var friendsData = [
 },
 {
     name: "Bryan",
-    photo: "https://ibb.co/NycLyV9",
+    photo: "",
     scores: [
         "1",
         "2",
@@ -50,7 +50,7 @@ var friendsData = [
 },
 {
     name: "Russel",
-    photo: "https://ibb.co/gyNhQXQ",
+    photo: "",
     scores: [
         "3",
         "2",
@@ -66,7 +66,7 @@ var friendsData = [
 },
 {
     name: "Nitza",
-    photo: "https://ibb.co/7X50B59",
+    photo: "",
     scores: [
         "5",
         "1",
@@ -82,7 +82,7 @@ var friendsData = [
 },
 {
     name: "Greg",
-    photo: "https://ibb.co/3kntbHZ",
+    photo: "",
     scores: [
         "5",
         "5",
@@ -98,7 +98,7 @@ var friendsData = [
 },
 {
     name: "Doug",
-    photo: "https://ibb.co/68g3WmB",
+    photo: "",
     scores: [
         "4",
         "2",
@@ -114,7 +114,7 @@ var friendsData = [
 },
 {
     name: "Tim",
-    photo: "https://ibb.co/fpZWdt7",
+    photo: "",
     scores: [
         "4",
         "5",
