@@ -1,7 +1,7 @@
 var friendsData = [
     {
     name: "Tori",
-    photo: "https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "3",
         "4",
@@ -18,7 +18,7 @@ var friendsData = [
 ,
 {
     name: "Gabbi",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "5",
         "1",
@@ -34,7 +34,7 @@ var friendsData = [
 },
 {
     name: "Bryan",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "1",
         "2",
@@ -50,7 +50,7 @@ var friendsData = [
 },
 {
     name: "Russel",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "3",
         "2",
@@ -66,7 +66,7 @@ var friendsData = [
 },
 {
     name: "Nitza",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "5",
         "1",
@@ -82,7 +82,7 @@ var friendsData = [
 },
 {
     name: "Greg",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "5",
         "5",
@@ -98,7 +98,7 @@ var friendsData = [
 },
 {
     name: "Doug",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "4",
         "2",
@@ -114,7 +114,7 @@ var friendsData = [
 },
 {
     name: "Tim",
-    photo: "",
+    photo: "https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg",
     scores: [
         "4",
         "5",

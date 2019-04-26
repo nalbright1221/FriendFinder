@@ -213,9 +213,11 @@
             success: success
           
           }).then(function (res){
+            console.log(res.photo);
             $("#matchedFriendName").html(res.name);
-          $("#matchedFriendPicture").attr(src, res.photo);
+          $("#matchedFriendPicture").attr("src", res.photo);
           })
+
           
 
           $("#matchModal").show();
